@@ -1,0 +1,9 @@
+{
+  "name": "header-dynamic-import",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^10.0.2"
+  }
+}

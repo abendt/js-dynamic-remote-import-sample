@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <script src="require.js"></script>
+
+    <script>
+        require.load({
+            id: 'plugin',
+            url: 'http://localhost:5000/plugin.js'
+        }, function (err) {
+            if (err) throw err;
+
+            var plugin = require("plugin");
+
+            console.log(plugin.helloWorld("world"));
+        });
+    </script>
+
+</head>
+
+
+</html>
+
